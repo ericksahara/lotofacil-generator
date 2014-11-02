@@ -1,0 +1,81 @@
+body {
+	font-family:Calibri, sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 1.75rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.3rem;
+}
+
+.topo {
+	background: #8B1374;
+	padding: 0.2rem 0;
+	margin-bottom: 1rem;
+}
+
+.content__descricao {
+	color: #8B1374;
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+}
+
+.content__descricao.sucesso {
+	font-weight: bold;
+}
+
+.content__jogo {
+	color: #8B1374;
+	font-size: 1.25rem;
+	background: #FEFFD3;
+	border: solid 1px #8B1374;
+	padding: 2rem;
+	border-radius: 16px;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	word-break: break-all;
+	display: table;
+	width: 100%;
+}
+
+.content_container {
+	display: table;
+	width: 100%;
+}
+
+.content__select {
+	margin-bottom: 1rem;
+	border: none;
+	color: #8b1374;
+	background: #EEE;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.content__container-btn {
+	padding: 0 0.5rem;
+}
+
+.content__btn {
+	background: #2ECC71;
+	border-radius: 4px;
+	padding: 1rem;
+	color: #FFF;
+	text-transform: uppercase;
+	border-bottom: solid 3px #27AE60;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content__btn:active {
+	border-bottom-width: 1px;
+	transform: translateY(2px);
+}
+
+.content__btn.resetar {
+	background: #BDC3C7;
+	border-color: #A0A9AF;
+}

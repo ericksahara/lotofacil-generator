@@ -1,0 +1,11 @@
+{
+  "name": "lotofacil-generator",
+  "version": "0.0.0",
+  "authors": [
+    "Erick Sahara <erickmsk8@hotmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.3.1"
+  }
+}
